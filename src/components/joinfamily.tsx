@@ -7,6 +7,8 @@ import {
   FaTwitter,
   FaLinkedin,
 } from "react-icons/fa";
+import Image from "next/image";
+
 
 const JoinFamily: FC = () => {
   return (
@@ -58,7 +60,7 @@ const JoinFamily: FC = () => {
         </div>
 
         <div className="relative h-64 sm:h-80 md:h-auto">
-          <img
+          <Image
             src="/footer.png"
             alt="Team playing"
             className="w-full h-full object-cover grayscale"

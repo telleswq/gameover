@@ -7,6 +7,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import Image from "next/image";
 
 const Footer: FC = () => {
   return (
@@ -27,7 +28,7 @@ const Footer: FC = () => {
             Política de Frete
           </a>
 
-          <img
+          <Image
             src="/logo.png"
             alt="Logo"
             className="h-12 object-contain mt-4"

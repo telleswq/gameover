@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Image from "next/image";
 
 interface NewsCardProps {
   image: string;
@@ -14,7 +15,7 @@ const NewsCard = ({ image, title, description, link }: NewsCardProps) => {
   return (
     <div className="flex flex-col bg-black text-white overflow-hidden rounded-lg shadow-lg w-full">
       {/* Imagem */}
-      <img
+      <Image
         src={image}
         alt={title}
         className="w-full h-64 sm:h-72 md:h-80 lg:h-96 object-cover grayscale"

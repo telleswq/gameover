@@ -42,7 +42,7 @@ export default function History() {
       </div>
 
       <div className="w-full lg:w-[336px] h-[400px] sm:h-[600px] lg:h-[858px]">
-        <img
+        <Image
           src="/history.png"
           alt="Jogador com headset"
           className="w-full h-full object-cover grayscale"
